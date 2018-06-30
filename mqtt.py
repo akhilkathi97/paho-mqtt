@@ -22,8 +22,8 @@ Connected = False   #global variable for the state of the connection
  
 broker_address= "m10.cloudmqtt.com"  #Broker address
 port = 10785                         #Broker port
-user = "lewlkmcc"                    #Connection username
-password = "9h-ppJorQ7GV"            #Connection password
+user = "#user"                    #Connection username
+password = "#password"            #Connection password
  
 client = mqttClient.Client("Python")               #create new instance
 client.username_pw_set(user, password=password)    #set username and password
